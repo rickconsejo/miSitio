@@ -1,0 +1,172 @@
+body {
+  margin: 0px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Yaldevi', sans-serif;
+  font-size: 3.625rem;
+  /**line-height: 2; ***/
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Patua One', cursive;
+  font-size: 2.5rem;
+  font-weight: normal;
+  color: #66BFBF;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Patua One', cursive;
+  color: #11999E;
+}
+
+div {}
+
+hr {
+  border: dotted black 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+
+}
+
+p{
+  line-height: 2;
+}
+
+a{
+  color: #11999E;
+  font-family: 'Poppins', sans-serif;
+  margin: 20px 20px;
+  /*Para quitar el subrayado por defecto de los links*/
+  text-decoration: none;
+}
+
+a:hover{
+  color: #EAF6F6;
+}
+
+/************CLASS SELECTORS******************/
+.intro {
+  color: #40514E;
+  width: 30%;
+  margin:auto;
+}
+
+.profile{
+  margin-top: 100px;
+}
+
+.top-container {
+  padding-top: 100px;
+  position: relative;
+  background-color: #EAF6F6;
+}
+
+.middle-container {
+
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 20px 0 10px;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 40px;
+  right: 300px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.footer-link {
+  color: #11999E;
+  margin-bottom: 0;
+}
+
+.copyright{
+  color: #EAF6F6;
+  padding: 20px auto 0;
+  font-size: 0.9rem;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+
+}
+
+.code-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.java-img {
+  width: 25%;
+  /*float: hace que el texto envuelva una imagen */
+  float: right;
+  margin-left: 30px;
+}
+
+.contact-message{
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+
+.btn-contact {
+   background: #11CDD4;
+   background-image: -webkit-linear-gradient(top, #11CDD4, #19B6BB);
+   background-image: -moz-linear-gradient(top, #11CDD4, #19B6BB);
+   background-image: -ms-linear-gradient(top, #11CDD4, #19B6BB);
+   background-image: -o-linear-gradient(top, #11CDD4, #19B6BB);
+   background-image: -webkit-gradient(to bottom, #11CDD4, #19B6BB);
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   height: 14px;
+   line-height: 14px;
+   color: #FFFFFF;
+   font-family: 'Poppins', sans-serif;
+   width: 155px;
+   font-size: 20px;
+   font-weight: 100;
+   padding: 20px;
+   border-color-hover: ;
+   border-style-hover: solid;
+   border-width-hover: 1;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   margin: 0 0 100px;
+}
+
+.btn-contact:hover {
+   background: rgba(73, 177, 163, 0.6);
+   background-image: -webkit-linear-gradient(top, rgba(73, 177, 163, 0.6), #2BC4AD);
+   background-image: -moz-linear-gradient(top, rgba(73, 177, 163, 0.6), #2BC4AD);
+   background-image: -ms-linear-gradient(top, rgba(73, 177, 163, 0.6), #2BC4AD);
+   background-image: -o-linear-gradient(top, rgba(73, 177, 163, 0.6), #2BC4AD);
+   background-image: -webkit-gradient(to bottom, rgba(73, 177, 163, 0.6), #2BC4AD);
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   text-decoration: none;
+}
