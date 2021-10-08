@@ -7,16 +7,20 @@ body {
 h1 {
   margin: 50px auto 0 auto;
   font-family: 'Yaldevi', sans-serif;
+  font-family: 'Lobster', cursive;
+  font-family: 'Satisfy', cursive;
   font-size: 3.625rem;
+  font-size: 4.625rem;
+  font-weight: 500;
   /**line-height: 2; ***/
-  color: #66BFBF;
+  color: #778899;
 }
 
 h2 {
   font-family: 'Patua One', cursive;
   font-size: 2.5rem;
   font-weight: normal;
-  color: #66BFBF;
+  color: #89A4BF;
   padding-bottom: 10px;
 }
 
@@ -31,7 +35,7 @@ hr {
   border: dotted black 6px;
   border-bottom: none;
   width: 4%;
-  margin: 100px auto;
+  margin: 65px auto;
 
 }
 
@@ -54,7 +58,7 @@ a:hover{
 /************CLASS SELECTORS******************/
 .intro {
   color: #40514E;
-  width: 30%;
+  width: 35%;
   margin:auto;
 }
 
